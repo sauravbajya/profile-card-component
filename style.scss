@@ -24,7 +24,7 @@ body {
   background-color: $dark-cyan;
   overflow: hidden;
   color: $very-dark-desaturated-blue;
-  background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
   background-position: top -40rem  left -49rem, 
   bottom -70rem right -48rem;
@@ -64,7 +64,7 @@ body {
     margin: auto;
 
     &__top{
-      background-image: url(/images/bg-pattern-card.svg);
+      background-image: url(./images/bg-pattern-card.svg);
       height: 6em;
       border-top-left-radius: 0.9375rem ;
       border-top-right-radius:0.9375rem ;
